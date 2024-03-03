@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import NavigationMenuComponent from "@/components/layout/NavigationMenu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +12,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <NavigationMenuComponent />
+        <main className="flex max-h-screen flex-col items-center justify-between">
+          {children}
+        </main>
+      </body>
     </html>
   );
 }
