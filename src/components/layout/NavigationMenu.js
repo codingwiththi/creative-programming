@@ -38,18 +38,18 @@ const navigationManuOptions = [
     label: "Sketch 06",
     href: "/sketches/06",
   },
-  // {
-  //   label: "Sketch 07",
-  //   href: "/sketches/07",
-  // },
-  // {
-  //   label: "Sketch 08",
-  //   href: "/sketches/08",
-  // },
-  // {
-  //   label: "Sketch 09",
-  //   href: "/sketches/09",
-  // },
+  {
+    label: "Sketch 07",
+    href: "/sketches/07",
+  },
+  {
+    label: "Sketch 08",
+    href: "/sketches/08",
+  },
+  {
+    label: "Sketch 09",
+    href: "/sketches/09",
+  },
   // {
   //   label: "Sketch 10",
   //   href: "/sketches/10",
